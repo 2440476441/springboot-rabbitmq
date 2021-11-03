@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: application_rabbitmq
+  rabbitmq:
+    host: 47.100.42.118
+    port: 5672
+    username: rabbit
+    password: 123456
+    virtual-host: /rabbit
